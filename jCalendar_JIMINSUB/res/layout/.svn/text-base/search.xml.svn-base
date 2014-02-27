@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#748aa7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView 
+    	android:textSize="20sp"
+   		android:textStyle="bold"
+   		android:textColor="#FFFFFF"
+    	android:text="Search"
+    	android:gravity="center"
+    	android:layout_width="fill_parent"
+    	android:layout_height="50dp" />
+    
+    <!--  검색입력창 -->
+	<LinearLayout
+		android:paddingTop="@dimen/padding_plan_layout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+ 			
+		
+    	<EditText 
+    		android:id="@+id/ed_subject"
+    		android:hint="@string/hint_search_keyword"
+    		android:layout_weight="2"
+    		android:singleLine="true"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"  />
+    	
+    	<Button
+    		android:id="@+id/btn_search"
+			android:text="검색"
+			android:textSize="@dimen/font_plan_setting"
+			android:layout_weight="5"
+   			android:layout_width="fill_parent"
+   			android:layout_height="fill_parent"  />
+  	</LinearLayout>
+  	
+  	<LinearLayout
+  		android:background="#DCDCDC"
+  		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+  		<ListView 
+	  		android:id="@+id/lv_search"
+	  		android:cacheColorHint="#00000000"
+	  		android:paddingTop="@dimen/padding_plan_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+  	</LinearLayout>
+  		
+</LinearLayout>

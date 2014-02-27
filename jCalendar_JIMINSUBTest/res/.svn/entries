@@ -1,0 +1,50 @@
+10
+
+dir
+205
+svn+ssh://svnext.ubivelox.com/home/svnroot/project/jCalendar_JIMINSUBTest/res
+svn+ssh://svnext.ubivelox.com/home/svnroot/project
+
+
+
+2012-01-15T13:20:44.039605Z
+205
+jiminsub
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cc2d5158-34fe-11e1-87c1-b9b264a2d2a6
+
+
+
+
+
+
+0
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+values
+dir
+

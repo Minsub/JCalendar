@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>    
+	<color name="color_plan_border">#D3D3D3</color>
+	<color name="font_plan_setting">#FFFFFF</color>
+	
+	<color name="font_plan_calendar">#000000</color>
+	<color name="font_plan_list">#000000</color>
+	<color name="font_plan_list_time">#808080</color>
+	<color name="font_search_item_subject">#000000</color>
+	<color name="font_search_list_time">#808080</color>
+	
+	<!--  OneDay -->
+	<color name="bg_ondeday_line">#D3D3D3</color>
+</resources>

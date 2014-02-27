@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView 
+    	android:text="2012. 01. 12"
+    	android:gravity="center"
+    	android:textSize="18sp"
+    	android:background="#748aa7"
+    	android:textColor="#FFFFFF"
+    	android:id="@+id/tv_subject"
+    	android:layout_width="fill_parent"
+	    android:layout_height="40dp" />
+	    
+    <ScrollView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"  >
+    	
+    	<RelativeLayout
+    		android:paddingLeft="8dp"
+			android:paddingRight="5dp" 
+    		android:id="@+id/cover"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" >
+    	
+    		<LinearLayout
+    			android:id="@+id/layout_1"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 12시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_1"
+    			android:id="@+id/layout_2"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 01시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_2"
+    			android:id="@+id/layout_3"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 02시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_3"
+    			android:id="@+id/layout_4"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 03시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_4"
+    			android:id="@+id/layout_5"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 04시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_5"
+    			android:id="@+id/layout_6"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 05시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_6"
+    			android:id="@+id/layout_7"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 06시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_7"
+    			android:id="@+id/layout_8"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 07시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_8"
+    			android:id="@+id/layout_9"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 08시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_9"
+    			android:id="@+id/layout_10"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 09시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_10"
+    			android:id="@+id/layout_11"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 10시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_11"
+    			android:id="@+id/layout_12"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 11시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_12"
+    			android:id="@+id/layout_13"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오전 정오"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_13"
+    			android:id="@+id/layout_14"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 01시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_14"
+    			android:id="@+id/layout_15"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 02시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_15"
+    			android:id="@+id/layout_16"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 03시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_16"
+    			android:id="@+id/layout_17"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 04시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_17"
+    			android:id="@+id/layout_18"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 05시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_18"
+    			android:id="@+id/layout_19"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 06시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_19"
+    			android:id="@+id/layout_20"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 07시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_20"
+    			android:id="@+id/layout_21"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 08시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_21"
+    			android:id="@+id/layout_22"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 09시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_22"
+    			android:id="@+id/layout_23"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 10시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_23"
+    			android:id="@+id/layout_24"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 11시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:layout_below="@+id/layout_24"
+    			android:id="@+id/layout_25"
+    			android:orientation="horizontal"
+    			android:gravity="center"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_hour" >
+    			
+    			<TextView 
+    				android:gravity="center"
+    				android:text="오후 12시"
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent" />
+    			<LinearLayout 
+    				android:layout_weight="1"
+    				android:background="@color/bg_ondeday_line"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="1px" />
+    		</LinearLayout>
+    		
+    		
+    		<LinearLayout
+    			android:paddingTop="20dp"
+    			android:layout_width="fill_parent"
+	    		android:layout_height="@dimen/height_one_max" >
+    			<LinearLayout
+    				android:layout_weight="4"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"/>
+	    			
+	    		<LinearLayout
+	    			android:orientation="horizontal"
+	    			android:id="@+id/cover_plans"
+    				android:layout_weight="1"
+    				android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"/>
+    		</LinearLayout>
+    		
+    	</RelativeLayout>	
+    </ScrollView>
+    	
+</LinearLayout>

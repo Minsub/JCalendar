@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="font_calendar_plan">9sp</dimen> <!-- 캘린더 안에 있는 일정 표시 폰트  -->
+	
+	<!-- ActivityPlan -->
+	<dimen name="font_plan_setting">18sp</dimen> <!-- 일정 수정,저장,삭제 액티비티의 기본 글자폰트  -->
+	<dimen name="height_plan_subject">40dp</dimen> <!-- 일정 수정,저장,삭제 액티비티의 제목 높이  -->
+	<dimen name="padding_plan_layout">8dp</dimen> <!-- 메뉴하나하나의 높이 여백  -->
+	
+	<!-- search_list_item, 검색 일정의 아이템 레이아웃 -->
+	<dimen name="height_search_item">50dp</dimen> <!-- 일정검색의 아이템 높이  -->
+	<dimen name="font_search_item_subject">20sp</dimen> <!-- 일정검색의 아이템의 제목 폰트 크기 -->
+	
+	<!-- oneday,  -->
+	<dimen name="height_one_hour">40dp</dimen> <!-- 한시간의 높이  -->
+	<dimen name="height_one_max">980dp</dimen> <!-- 전 높이  -->
+	
+</resources>

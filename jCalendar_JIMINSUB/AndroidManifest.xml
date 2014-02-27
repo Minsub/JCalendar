@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.minsub.calendar"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+    
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+        		  android:screenOrientation="portrait"
+        		  android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".ActivityOneDay"
+        		  android:windowSoftInputMode="stateHidden|adjustPan"
+        		  android:screenOrientation="portrait"
+         		  android:theme="@android:style/Theme.NoTitleBar" />
+         		  
+        <activity android:name=".ActivityPlan"
+        		  android:windowSoftInputMode="stateHidden|adjustPan"
+        		  android:screenOrientation="portrait"
+         		  android:theme="@android:style/Theme.NoTitleBar" />
+         		  
+        <activity android:name=".ActivitySearch"
+        		  android:windowSoftInputMode="stateHidden|adjustPan"
+        		  android:screenOrientation="portrait"
+         		  android:theme="@android:style/Theme.NoTitleBar" />
+
+		<receiver android:name="ReceiverBoot">
+	        <intent-filter>
+	             <action android:name="android.intent.action.BOOT_COMPLETED" />
+	        </intent-filter>
+        </receiver>
+        
+        <receiver android:name="ReceiverAlarm" />
+        
+    </application>
+</manifest>
